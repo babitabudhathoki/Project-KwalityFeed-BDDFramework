@@ -45,10 +45,10 @@ public class LoginPageSteps {
     	System.out.println(loginPageElements.getDashboardPageTitle());
     }
     
-//    @Then("I click on the error popup")
-//    public void i_click_on_the_error_popup() {
-//    	loginPageElements.clickOnErrorOkButton();
-//    }
+    @Then("I click on the error popup")
+    public void i_click_on_the_error_popup() {
+    	loginPageElements.clickOnErrorOkButton();
+    }
 
     @When("I click on the forgot password link")
     public void i_click_on_the_forgot_password_link() {
